@@ -1,0 +1,35 @@
+{
+  "ok": true,
+  "data": [
+    {
+      "id": 6,
+      "id_gerencia": null,
+      "nombre_superintendencia": null
+    },
+    {
+      "id": 5,
+      "id_gerencia": null,
+      "nombre_superintendencia": null
+    },
+    {
+      "id": 4,
+      "id_gerencia": null,
+      "nombre_superintendencia": null
+    },
+    {
+      "id": 3,
+      "id_gerencia": 3,
+      "nombre_superintendencia": "Mantencion mina"
+    },
+    {
+      "id": 2,
+      "id_gerencia": 2,
+      "nombre_superintendencia": "Mantenimiento "
+    },
+    {
+      "id": 1,
+      "id_gerencia": 1,
+      "nombre_superintendencia": "Metalurgia"
+    }
+  ]
+}

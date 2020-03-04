@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "data": [
+    {
+      "id": 5,
+      "id_empresa": null,
+      "descripcion": null,
+      "estado": null,
+      "vigencia": null,
+      "tipo_documento": null,
+      "archivo": null
+    }
+  ]
+}

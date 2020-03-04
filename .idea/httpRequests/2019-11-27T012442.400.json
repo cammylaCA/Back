@@ -1,0 +1,13 @@
+{
+  "ok": false,
+  "error": {
+    "name": "error",
+    "length": 102,
+    "severity": "ERROR",
+    "code": "22P02",
+    "position": "36",
+    "file": "numutils.c",
+    "line": "62",
+    "routine": "pg_atoi"
+  }
+}

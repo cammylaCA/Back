@@ -1,0 +1,29 @@
+{
+  "ok": true,
+  "data": [
+    {
+      "id": 4,
+      "id_compania": 2,
+      "nombre_gerencia": "Seguridad y salud operacional",
+      "tipologia": "Proyecto"
+    },
+    {
+      "id": 3,
+      "id_compania": 2,
+      "nombre_gerencia": "Operaciones",
+      "tipologia": "Proyecto"
+    },
+    {
+      "id": 2,
+      "id_compania": 1,
+      "nombre_gerencia": "RRHH",
+      "tipologia": "Mina"
+    },
+    {
+      "id": 1,
+      "id_compania": 1,
+      "nombre_gerencia": "Administracion y Finanzas",
+      "tipologia": "Mina"
+    }
+  ]
+}

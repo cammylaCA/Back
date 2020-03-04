@@ -1,0 +1,32 @@
+{
+  "ok": true,
+  "data": [
+    {
+      "id": 1,
+      "id_empresa": 3,
+      "descripcion": "este documento prueba 1",
+      "estado": "disponible",
+      "vigencia": "2 años",
+      "tipo_documento": "tipo 1",
+      "archivo": "permiso_municipal.txt"
+    },
+    {
+      "id": 2,
+      "id_empresa": 4,
+      "descripcion": "este documento prueba 2",
+      "estado": "disponible",
+      "vigencia": "4 años",
+      "tipo_documento": "tipo 2",
+      "archivo": "permiso_municipal.txt"
+    },
+    {
+      "id": 3,
+      "id_empresa": 4,
+      "descripcion": "prueba 2",
+      "estado": "disponible",
+      "vigencia": "2 años",
+      "tipo_documento": "tipo 2",
+      "archivo": "documento"
+    }
+  ]
+}

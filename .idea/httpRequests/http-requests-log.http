@@ -1,0 +1,389 @@
+GET http://localhost:8000/api/corporativo
+
+<> 2019-11-27T014247.200.json
+
+###
+
+DELETE http://localhost:8000/api/eliminarCorporativo
+
+id:6
+
+<> 2019-11-27T012448.400.json
+
+###
+
+DELETE http://localhost:8000/api/eliminarCorporativo
+
+id=6
+
+<> 2019-11-27T012442.400.json
+
+###
+
+POST http://localhost:8000/api/nuevaCorporativo
+
+nombre_corporativo=crporativo prueba 1
+
+<> 2019-11-27T012414.200.json
+
+###
+
+GET http://localhost:8000/api/corporativo
+
+<> 2019-11-27T012256.200.json
+
+###
+
+GET http://localhost:8000/api/superintendencia
+
+<> 2019-11-27T012243.200.json
+
+###
+
+GET http://localhost:8000/api/superintendencia
+
+<> 2019-11-27T011921.200.json
+
+###
+
+POST http://localhost:8000/api/nuevaSuperintendencia
+Content-Type: application/x-www-form-urlencoded
+
+id_gerencia=4&nombre_superitendencia="prueba superintendencia"
+
+<> 2019-11-27T011917.200.json
+
+###
+
+GET http://localhost:8000/api/superintendencia
+
+<> 2019-11-27T011858.200.json
+
+###
+
+POST http://localhost:8000/api/nuevaSuperintendencia
+Content-Type: application/x-www-form-urlencoded
+
+id_gerencia=4&nombre_superitendencia=prueba superintendencia
+
+<> 2019-11-27T011855.200.json
+
+###
+
+POST http://localhost:8000/api/nuevaSuperintendencia
+Content-Type: application/x-www-form-urlencoded
+
+id_gerencia=4&nombre_superitendencia=prueba superintendencia
+
+<> 2019-11-27T011852.200.json
+
+###
+
+GET http://localhost:8000/api/superintendencia
+
+<> 2019-11-27T011752.200.json
+
+###
+
+POST http://localhost:8000/api/nuevaSuperintendencia
+Accept: */*
+Cache-Control: no-cache
+
+id_gerencia=4&nombre_superitendencia=prueba superintendencia
+
+<> 2019-11-27T011748.200.json
+
+###
+
+GET http://localhost:8000/api/superintendencia
+
+<> 2019-11-27T011545.200.json
+
+###
+
+POST http://localhost:8000/api/nuevaSuperintendencia
+
+id_gerencia=4&nombre_superitendencia=prueba superintendencia
+
+<> 2019-11-27T011540.200.json
+
+###
+
+GET http://localhost:8000/api/superintendencia
+
+<> 2019-11-27T011143.200.json
+
+###
+
+POST http://localhost:8000/api/nuevaSuperintendencia
+Content-Type: application/x-www-form-urlencoded
+
+{
+"id_gerencia": 4,
+"nombre_superitendencia": " prueba superintendencia ",
+}
+
+<> 2019-11-27T011139.200.json
+
+###
+
+GET http://localhost:8000/api/documentoEmpresa
+
+<> 2019-11-27T010951.200.json
+
+###
+
+POST http://localhost:8000/api/nuevaDocumentoEmpresa
+
+{
+"id_empresa": 3,
+"descripcion": "prueba 2",
+"estado": "disponible",
+"vigencia": "2 años",
+"tipo_documento": "tipo 2",
+"archivo": "documento"
+}
+
+<> 2019-11-27T010948.200.json
+
+###
+
+GET http://localhost:8000/api/documentoEmpresa
+
+<> 2019-11-27T010940.200.json
+
+###
+
+GET http://localhost:8000/api/documentoEmpresa
+
+<> 2019-11-27T010932.200.json
+
+###
+
+GET http://localhost:8000/api/superintendencia
+
+<> 2019-11-27T010826.200.json
+
+###
+
+POST http://localhost:8000/api/nuevaSuperintendencia
+
+{
+"id_gerencia": 4,
+"nombre_superitendencia": " prueba superintendencia ",
+}
+
+<> 2019-11-27T010820.200.json
+
+###
+
+POST http://localhost:8000/api/nuevaCorporativo
+
+{
+"id_gerencia": 4,
+"nombre_superitendencia": " prueba superintendencia ",
+}
+
+<> 2019-11-27T010755.200.json
+
+###
+
+GET http://localhost:8000/api/superintendencia
+
+<> 2019-11-27T010740.200.json
+
+###
+
+GET http://localhost:8000/api/gerencia
+
+<> 2019-11-27T010715.200.json
+
+###
+
+GET http://localhost:8000/api/superintendencia
+
+<> 2019-11-27T010653.200.json
+
+###
+
+GET http://localhost:8000/api/superintendencia
+
+<> 2019-11-27T010647.200.json
+
+###
+
+POST http://localhost:8000/api/nuevaCorporativo
+
+{
+"id_gerencia": 3,
+"nombre_superitendencia": " prueba superintendencia ",
+}
+
+<> 2019-11-27T010616.200.json
+
+###
+
+POST http://localhost:8000/api/nuevaCorporativoPOST
+
+{
+"id_gerencia": 3,
+"nombre_superitendencia": " prueba superintendencia ",
+}
+
+<> 2019-11-27T010605.404.html
+
+###
+
+GET http://localhost:8000/api/superintendencia
+
+<> 2019-11-27T010432.200.json
+
+###
+
+GET http://localhost:8000/api/corporativo
+
+<> 2019-11-27T125936.200.json
+
+###
+
+POST http://localhost:8000/api/nuevaDocumentoEmpresa
+
+{
+"id_empresa": 3,
+"descripcion": "prueba 2",
+"estado": "disponible",
+"vigencia": "2 años",
+"tipo_documento": "tipo 2",
+"archivo": "documento"
+}
+
+<> 2019-11-27T125215.200.json
+
+###
+
+POST http://localhost:8000/api/documentoEmpresa
+
+{
+"id_empresa": 3,
+"descripcion": "prueba 2",
+"estado": "disponible",
+"vigencia": "2 años",
+"tipo_documento": "tipo 2",
+"archivo": "documento"
+}
+
+<> 2019-11-27T125154.404.html
+
+###
+
+GET http://localhost:8000/api/documentoEmpresa
+
+<> 2019-11-27T124808.200.json
+
+###
+
+GET http://localhost:8000/api/documentoEmpresa
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-11-27T124325.200.json
+
+###
+
+POST http://localhost:8000/api/nuevaDocumentoEmpresa
+Content-Type: application/json
+
+{
+"descripcion": "prueba 2" ,
+"estado":"disponible",
+"vigencia":"2 años",
+"id_empresa": "4",
+"tipo_documento":"tipo 2",
+"archivo":"documento"
+}
+
+<> 2019-11-27T124316.200.json
+
+###
+
+POST http://localhost:8000/api/nuevaDocumentoEmpresa
+Content-Type: application/json
+Accept: */*
+Cache-Control: no-cache
+{:
+"descripcion": "prueba 2" ,
+"estado": "disponible",
+"vigencia": "2 años",
+"id_empresa": "4",
+"tipo_documento": "tipo 2",
+"archivo": "documento"
+}:
+
+###
+
+POST http://localhost:8000/api/nuevaDocumentoEmpresa
+Accept: */*
+Cache-Control: no-cache
+{:
+"descripcion": "prueba 2" ,
+"estado": "disponible",
+"vigencia": "2 años",
+"id_empresa": "4",
+"tipo_documento": "tipo 2",
+"archivo": "documento"
+}:
+
+###
+
+POST http://localhost:8000/api/nuevaDocumentoEmpresa
+Accept: */*
+Cache-Control: no-cache
+{:
+   "descripcion": "prueba 2" ,
+        "estado": "disponible",
+        "vigencia": "2 años",
+        "id_empresa": "4",
+        "tipo_documento": "tipo 2",
+        "archivo": "documento"
+}:
+
+###
+
+GET http://localhost:8000/api/documentoEmpresa
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-11-27T123455.200.json
+
+###
+
+GET http://localhost:8000/api/documentoPersona
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-11-27T123343.200.json
+
+###
+
+GET http://localhost:8000/api/documentoPersona
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-11-27T123315.200.json
+
+###
+
+GET http://localhost:8000/documentoPersona
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-11-27T123137.404.html
+
+###
+
+GET http://localhost:8080/documentoPersona
+Accept: */*
+Cache-Control: no-cache
+
+###
+
